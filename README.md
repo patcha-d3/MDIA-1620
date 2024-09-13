@@ -11,6 +11,6 @@
 
 
 ---
-**Word for how you're feeling**
-I'm quite have no ideas of how it works, but looking forward to learning.
----
+**Word for how you're feeling:**
+I'm quite not sure how it works, but looking forward to learning.
+
