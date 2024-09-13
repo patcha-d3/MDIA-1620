@@ -1,5 +1,15 @@
 # MDIA1620
-*Pat's* personal git for **MDIA 1620 class**
+**AHA Moments**
+- Computers can't really think by themselves, they always need commanding in logical way.
+-  Gavin loves Chicken clubs sandwich.
+-   Instructor plays **original SimCity**, that's cool.
+---
+
+
+**Things that are still unclear**
+- What can CLI actually do?
 
 ---
-[Google](https://www.google.com)
+**Word for how you're feeling**
+I'm quite have no ideas of how it works, but looking forward to learning.
+---
