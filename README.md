@@ -8,6 +8,7 @@
 
 **Things that are still unclear**
 - What can CLI actually do?
+- Differences between markup and markdown.
 
 
 ---
