@@ -1,23 +1,23 @@
 # MDIA-1620
-**AHA Moments**
-- Computers can't really think by themselves, they always need commanding in logical way.
-- Gavin loves Chicken clubs sandwich.
-- Sonja plays **original SimCity**, that's cool.
+**3 AHA Moments**
+- String - data type is a sequence of characters, quotation marks needed, for example: let horseName = "BlahBlah";
+- Number - is a numerical data, type-no quotations needed, for example: let horseAge = 999;
+- Boolean - logical data type, can only be true or false, prefix is "is", "can", "has", for example: let isHorseInside = true;
 ---
 
 
-**Things that are still unclear**
-- What can CLI actually do?
-- Differences between markup and markdown.
+**2 Things that are still unclear**
+- When I tried to edit horseName to other name and saved, VSCode just got mad and showed the ReferenceError
+- What does 'boolean' do? or it just to check true or false?
 
 
 ---
-**Word for how you're feeling:**
-I'm quite not sure how it works, but looking forward to learning.
+**1 Word for how you're feeling:**
+- Feeling like a newbie programmer, I learned how to publish my codes to GitHub by not uploading on GitHub website.
 
 
-![Montral Smoked Meat Sandwich](https://www.bhg.com/thmb/k7SU4KbGNb7bsSMdvxMiIFn28g4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-cheese-sandwiches-RU197054-0026ddec06634f3eb9b1a3649a114e3d.jpg)
-
-**Learning from 3-2-1's**
-- Github is where we store & control system version.
-- VSCode is where we do coding and we can use Github to control system version.
+---
+**Note**
+git status - shows the status of your files
+git add *filename* - to add file for uploading
+git push - to upload files on GitHub
