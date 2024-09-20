@@ -2,7 +2,7 @@
 **AHA Moments**
 - Computers can't really think by themselves, they always need commanding in logical way.
 - Gavin loves Chicken clubs sandwich.
-- Instructor plays **original SimCity**, that's cool.
+- Sonja plays **original SimCity**, that's cool.
 ---
 
 
