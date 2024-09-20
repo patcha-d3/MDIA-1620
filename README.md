@@ -1,4 +1,4 @@
-# MDIA1620
+# MDIA-1620
 **AHA Moments**
 - Computers can't really think by themselves, they always need commanding in logical way.
 - Gavin loves Chicken clubs sandwich.
