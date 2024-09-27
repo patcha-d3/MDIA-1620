@@ -17,7 +17,7 @@ console.log(horseIsNotInside);
 
 
 
-// LESSION-4 CODE //
+// LESSON-4 CODE //
 console.log(typeof 6677)
 console.log(typeof true)
 const STABLE_MONTHLY_FEE = 1000;
@@ -33,3 +33,11 @@ console.log("The stable monthly fee is...  " + STABLE_MONTHLY_FEE);
 
 console.log(`My horse's name is "${horseName}" and costs ${STABLE_MONTHLY_FEE} to board him`); // if you use backtick
 console.log("My horse's name is " + horseName + " and he is " + horseAge + " years old now.");
+
+
+
+// LESSON-4 Lab //
+let horseNickname = "Jackson"
+console.log(`My horse's name is ${horseNickname}`)
+const STABLE_MONTHLY = 800;
+console.log(`His 3 months stay will cost ${(STABLE_MONTHLY * 3) * 0.1} dollars`);
