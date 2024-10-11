@@ -14,6 +14,6 @@
 ---
 **Analogies that you use + gif**
 - ("Hi there" + horsename) and (`Hi there + ${horsename}`) are the same thing
-!(https://media.giphy.com/media/qglTBZFcRu06omNZkA/giphy.gif?cid=ecf05e47oz1affc6r8n26bj8tj9zpmtnrkd2er9qpdgb3yb6&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+!(https://media.giphy.com/media/qglTBZFcRu06omNZkA/giphy.gif?cid=ecf05e47oz1affc6r8n26bj8tj9zpmtnrkd2er9qpdgb3yb6&ep=v1_gifs_search&rid=giphy.gif)
 
 ---
