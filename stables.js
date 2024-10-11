@@ -41,3 +41,23 @@ let horseNickname = "Jackson"
 console.log(`My horse's name is ${horseNickname}`)
 const STABLE_MONTHLY = 800;
 console.log(`His 3 months stay will cost ${(STABLE_MONTHLY * 3) * 0.1} dollars`);
+
+
+// LESSON-5 At home //
+
+let visitingHorseName = " Bobie"
+
+if (horseNickname === "Jackson" && visitingHorseName === " Bobie" && isHorseInside)  { // the code in here will run if the condition is 'true', and won't run when 'false'
+    console.log(`${horseNickname} has a visitor and needs to come outside to see ${visitingHorseName}`);
+}
+
+else if (horseNickname === "Jackson" && visitingHorseName === " Bobie" && !isHorseInside) {
+    console.log(horseName + " is outside with " + visitingHorseName);
+}
+
+else {
+    console.log(horseNickname + " needs to figure what is going on");
+}
+
+
+
