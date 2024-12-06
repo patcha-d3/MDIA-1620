@@ -1,123 +1,266 @@
-// String - data type is a sequence of characters, quotation marks needed //
-let horseName = "Bambie";
-console.log(horseName);
+//------------------------- Bonus -------------------------//
+                                                                                                                                        
+                                               /////        Welcome to Horse Haus!                                                                                          
+                                             //////                                                                                            
+                                              ////                                                                                           
+                                                ///                                                                                         
+                                              //                                                           
+                                            //                                                             
+                                             //                                                            
+                                           ////                                                             
+                                           ////                           //\\\\\\\\\\\\\\\\\\\                                 
+//                                    /////////////////////\\          //  \\\\\\\\\\\\\\\\\\\\\\\\                                                                                       
+//                                   //    ////         //  \\        //       \\\\\\\\\\\\\\\\\\\\\\\\             
+                                    //                 //    \\      //             \\\\\\\\\\\\\\\\\\\\\\\\\
+                                   //                 //      \\    //                  \\\\\\\\\\\\\\\\\\\\\\\\\\\
+                                  //                 //        \\   //                          \\\\\\\\\\\\\\\\\\\\\\\\
+//                    🎄           /////////////////////  \\\\  \\  //                             \\\\\\\\\\\\\\\\\\\\\\\
+               ////////////\\\\\\\\ //          //        \\\\  \   //     ///////////                  \\\\\\\\\\\\\\\\\\\                                                                                                 
+                                    //          //        \\\\  \   //     ///////////                  \\\\\\\\\\\\\\\\\\\    
+//        🌸                        //          //        \\\\  \   //     ///////////                  \\\\\\\\\\\\\\\\\\\
+                                                                    ///    ///////////                  \\\\\\\\\\\\\\\\\\\ 
+                                                                      //   ///////////                  \\\\\\\\\\\\\\\\\\\
+                                                                        // ///////////                  \\\\\\\\\\\\\\\\\\\             
+//                                                                                                      \\\\\\\\\\\\\\\\\\      🌸
+//       &   &                                                                    
+//     ;&&  &&                          
+//     & & O  &&                        
+//    & &  &  & &                       
+//    & &  &&     &                                     🍁
+//    &&    &            &              🌸
+//          &              &    &&&&      
+//          &&     &       &    &&&&&    
+//          &&     &&     &&    &&  &&    
+//           &&& &&&&&&    &&& &&&& &&&    
+//            &&+           &&& X&&&  &&                                        🌸
+//            &&&&           &&&&&&  &&  
+//             & &           &  &;      
+//             & &          &&  &       
+//             & &         &&  &        🍁
+//                                                                         &  &                                             
+//                                                                        X&&&  &&&                                        
+//                                                                        &&      &&&$                          🍁             
+//                                                                       &      O   &&&&                                   
+//                                                                          &    ;  & &&&                                  
+//                                                                      &    &&&&+  &   &&                                 
+//    🍁                                                                & & &    &                                          
+//                                                                      &&;     &&&         &      &&&.                    
+//                                                                               && &                ;        &&           
+//                                                                               &&&                    &      &&&         
+//                                🌸                                             &&&&       &            &      &&&&        🌸
+//                                                                              &&&X       &&          &&      &&&&        
+//                                                                               &&&  &&   &&&&     &&&&&     &&&&&        
+//                                                                                x&&&  &&&&&&&&&&&    &&&&   &&&&&        
+//                                                                                 &&&&  &              &&&&  &&&&&&       
+//                                                                                  &&&& &                &&&& $&&& &                       🍁
+//                                                                                   &&& &                 &&&&& &&&X      
+//                                                                                   &&  &                 && && &&&       
+//                                                                                   && &&                 &  && & &       
+//                                                                                    &  &                &&  &&&          
+//                🍁                                                                  &  &               &&   &&           
+//                                                                                  .&  &+              &&   &&            
+//                                                                                     &&                                  
+                                                                                                                             
+                                                                                                                             
 
-// Number - is a numerical data, type-no quotations needed //
-let horseAge = 555;
-console.log(horseAge);
+//------------------------- Seting up shop -------------------------//
 
-// Boolean - logical data type, can only be true or false, prefix is "is", "can", "has" //
-let isHorseInside = true;
-
-let areHorsesInside = true;
-
-
-let horseIsNotInside = true;
-console.log(horseIsNotInside);
+let horses = [];
+let visitorMessage = "Welcome to Horse Haus! Please enjoy and make yourself at home here.";
+const LATE_MONTHLY_FEE = 10;
+let availStalls = 15;
+console.log(visitorMessage);
 
 
+//------------------------- First day -------------------------//
 
+const Horse = function (name, nickname, favTreat, age, monthlyRent, isInside, favMovie, danceStyle) {
+    this.name = name;
+    this.nickname = nickname;
+    this.favTreat = favTreat;
+    this.age = age;
+    this.monthlyRent = monthlyRent;
+    this.isInside = isInside;
+    this.favMovie = favMovie;
+    this.danceStyle = danceStyle;
 
+    this.introduce = function() {
+        return `This cutie horse name is ${this.name}, they bring their ${this.favTreat} with them today and show their move in ${this.danceStyle} dance!`; }
 
-
-// LESSON-4 CODE //
-console.log(typeof 6677)
-console.log(typeof true)
-const STABLE_MONTHLY_FEE = 1000;
-console.log(STABLE_MONTHLY_FEE);
-const lowercasevariable = 199;
-console.log(lowercasevariable);
-console.log(STABLE_MONTHLY_FEE*lowercasevariable*2);
-console.log((40+20)/6);
-console.log("Hi" + " there"); // computer doesn't know how to leave a space, you need to put in the sting
-console.log("Hi3" + 3 );    // type coercion // it's gonna be string
-console.log(false+true+"NaN");  
-console.log("The stable monthly fee is...  " + STABLE_MONTHLY_FEE);
-
-console.log(`My horse's name is "${horseName}" and costs ${STABLE_MONTHLY_FEE} to board him`); // if you use backtick
-console.log("My horse's name is " + horseName + " and he is " + horseAge + " years old now.");
-
-
-
-// LESSON-4 Lab //
-let horseNickname = "Jackson"
-console.log(`My horse's name is ${horseNickname}`)
-const STABLE_MONTHLY = 800;
-console.log(`His 3 months stay will cost ${(STABLE_MONTHLY * 3) * 0.1} dollars`);
-
-
-// LESSON-5 At home //
-
-let visitingHorseName = " Bobie"
-
-if (horseNickname === "Jackson" && visitingHorseName === " Bobie" && isHorseInside)  { // the code in here will run if the condition is 'true', and won't run when 'false'
-    console.log(`${horseNickname} has a visitor and needs to come outside to see ${visitingHorseName}`);
+    this.happyTime = function() {
+        return `This little ${this.name} loves chewing ${this.favTreat} while watching ${this.favMovie}`;  }
 }
 
-else if (horseNickname === "Jackson" && visitingHorseName === " Bobie" && !isHorseInside) {
-    console.log(horseName + " is outside with " + visitingHorseName);
-}
+const horse1 = new Horse("Bambi", "Bam", "corndog", 3, 30, true, "The Interstellar", "Swing");
+const horse2 = new Horse("Bamboo", "Boo", "fried rice", 4, 32, false, "La La Land", "Tap");
+const horse3 = new Horse("Bardock", "Bard", "noodle", 5, 36, true, "Toy Story 3", "Popping");
 
+horses.push( horse1, horse2, horse3);
+
+const horse4 = {
+    name: "Banffy",
+    nickname: "Baf",
+    favTreat: "orange juice",
+    age: 6,
+    monthlyRent: 38,
+    isInside: false,
+    favMovie: "The Shutter",
+    danceStyle: "Hiphopping",
+
+        introduce: function() {
+         return `This cutie horse name is ${this.name}, they bring their ${this.favTreat} with them today and show their move in ${this.danceStyle} dance!`; }
+}
+        this.happyTime = function() {
+            return `This little ${this.name} loves chewing ${this.favTreat} while watching ${this.favMovie}`;  }
+
+horses.push(horse4);
+
+
+console.log(horses);
+
+horse1.isHungry = true;
+horse2.isHungry = true;
+horse3.isHungry = false;
+horse4.isHungry = false;
+
+//------------------------- Stable roster -------------------------//
+
+    // Horse {
+    //   name: 'Bambi',
+    //   nickname: 'Bam',
+    //   favTreat: 'corndog',
+    //   age: 3,
+    //   monthlyRent: 30,
+    //   isInside: true,
+    //   favMovie: 'The Interstellar',
+    //   danceStyle: 'Swing',
+    //   introduce: [Function (anonymous)]
+    // },
+    // Horse {
+    //   name: 'Bamboo',
+    //   nickname: 'Boo',
+    //   favTreat: 'fried rice',
+    //   age: 4,
+    //   monthlyRent: 32,
+    //   isInside: false,
+    //   favMovie: 'La La Land',
+    //   danceStyle: 'Tap',
+    //   introduce: [Function (anonymous)]
+    // },
+    // Horse {
+    //   name: 'Bardock',
+    //   nickname: 'Bard',
+    //   favTreat: 'noodle',
+    //   age: 5,
+    //   monthlyRent: 36,
+    //   isInside: true,
+    //   favMovie: 'Toy Story 3',
+    //   danceStyle: 'Popping',
+    //   introduce: [Function (anonymous)]
+    // },
+    // {
+    //   name: 'Banffy',
+    //   nickname: 'Baf',
+    //   favTreat: 'orange juice',
+    //   age: 6,
+    //   monthlyRent: 38,
+    //   isInside: false,
+    //   favMovie: 'The Shutter',
+    //   danceStyle: 'Hiphopping',
+    //   introduce: [Function: introduce]
+    // }
+
+//---------------------- Growing business ----------------------//
+
+availStalls -= horses.length;
+
+if (availStalls < 2) {
+    console.log("We need to build more stalls"); }
 else {
-    console.log(horseNickname + " needs to figure what is going on");
+    console.log(`There are ${availStalls} stall(s) available right now in our Horse Haus`);
 }
 
 
-// LESSON-6 //
+function calculateLateMonthlyFee(horse) {
+     return horse.monthlyRent + LATE_MONTHLY_FEE;
+}
+    horses.forEach(horse => {
+        console.log(`${horse.name} will get to pay $${calculateLateMonthlyFee(horse)}`);
 
-let word = "Unicorn";
-    console.log(word.charAt(0));
-// answer U
+    })
 
-    console.log(word.charAt(1));
-// answer n
+const hausTreat = ['Sriracha', 'noodle', 'corndog'];
 
-let horseNames = [horseName, "Strawberry", "Beans"];
-let horseAges = [horseAge, 2, 10];
-let horseLocations = [areHorsesInside];
-    console.log(horseNames);
-    console.log(horseNames.length);
-    horseNames.push("Lettuce"); // computer will add Lettuce to the horseNames list and remember it
-    console.log(horseNames);
-    console.log(horseNames.length);
-    horseNames.push("Bambie");
-    console.log(horseNames);
-    console.log(horseNames.length);
-    console.log(horseNames[3]);
-    console.log(horseAges[2]);
-    console.log(horseLocations[2]);
-    console.log(`Welcome to my stables! There are ${horseNames.length} horses are staying here`); // or either 
-    console.log(" Welcome to my stables! There are " + horseNames.length + " horses are staying here"); // as well
-   
-   
-   if(horseLocations[1]) {
-        console.log(horseNames[1] + "is outside!");
-   }
+for (let i = 0; i < hausTreat.length ; i++) {
+    for (let j = 0; j < horses.length; j++) {
+        if (horses[j].favTreat === hausTreat[i]) {
+            console.log(`${horses[j].name} just tried ${hausTreat[i]} for the first time, they love it`); 
+            break;
+        } else {
+        console.log(`${horses[j].name} does not like ${hausTreat[i]}.`);
+        }
+    }
+}
 
-    if(horseNames[0] === "Charlie") {
-        console.log("Hi Charlie!");
+
+function gethorseNickname(horseName) {
+    for (let i = 0; i < horses.length; i++) {
+        if (horses[i].name === horseName) {
+            return horses[i].nickname;
+        }
+    }
+}
+
+const nickName = gethorseNickname('Bambi');
+    if (nickName) {
+        console.log(`The nickname of Bambi is ${nickName}.`);
     }
 
-    if(horseNames.length < 7) {
-        console.log("These stables are unpopular");
+//------------------------- Day to day operations -------------------------//
+
+function checkFavMovie(horseName, movie) {
+    for (let i = 0; i < horses.length; i++) {
+        if (horses[i].name === horseName) {
+            if (horses[i].favMovie === movie) {
+                return `${horses[i].name} enjoys watching ${movie}!`;
+            } else {
+                return `${horses[i].name} hates to watch ${movie}`;
+            }
+        }
     }
+}
+
+checkFavMovie(horses);
+
+function moveHorsesOutside(getsDark) {
+    horses.forEach(horses => {
+        if (horses.isInside) {
+                horses.isInside = true;
+                console.log(`${horses.name} has been moved outside.`);
+           } else {
+            console.log(`${horses.name} is already outside.`);}
+});
+               
+        if (getsDark) {
+            horses.forEach(horses => {
+        console.log(`Hey ${horses.name}, it's getting dark and cold outside! Perfect time for comfy bed.`)});
+            }
+}
+
+moveHorsesOutside(false);
+moveHorsesOutside(true);
+
+function feedHorses(horses) {
+    horses.forEach(horse => {
+        if (horse.isInside === false) {
+            console.log(`${horse.name} is outside, get inside to have dinner!`); // Move horse inside if they're outside
+        } else {
+            console.log(`${horse.name} is happily eating their favorite ${horse.favTreat}.`);
+        }
+    });
+}
+
+feedHorses(horses);
 
 
-    // LAB 6
-    if(horseLocations[1]) {
-        console.log(horseNames[1] + "are inside the stable!");
-   }
 
-    console.log(`Hi there! ${horseNames}, welcome to the unpopular stables because there are only ${horseNames.length} horses here. `);
-
-// let isHorseInside = true;
-// let areHorseInside = true;
-
-    if(isHorseInside) {
-        console.log(`my horses ${horseName} is inside`)
-    }
-
-    if(areHorsesInside) {
-        console.log(`my horses ${horseNames} are inside `)
-        console.log
-    }
